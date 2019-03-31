@@ -1,0 +1,49 @@
+html {
+  background: #100a1c;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+body {
+  color: #6cacc5;
+  font: 300 22px/1.6 "Source Sans Pro",sans-serif;
+}
+table {
+  font-size: 18px;
+  margin: 0 auto;
+  width: 20em;
+  
+}
+th{
+	background-color: pink;
+	padding: 1em;
+	color: black;
+	border-radius: 2px;
+}
+th:hover{
+	background-color: transparent;
+	color: white;
+}
+td{
+	color: pink;
+	background-color: transparent;
+	text-align:center;
+	padding: 10px;
+}
+td:hover{
+	background-color: pink;
+	color: #100a1c;
+	border-radius: 1rem;
+
+}
+.main{
+  text-align: center;
+}
+label{
+	background: -webkit-linear-gradient(30deg,#e5e509 58%, #baba00 42%);
+  /*background: -webkit-linear-gradient(45deg,  #c97874 58%, #463042 42%);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+}
